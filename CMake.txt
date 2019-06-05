@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.1)
+
+project(stack)
+
+set(CMAKE_CXX_STANDARD 11)
+
+set(SOURCE_FILES st.cpp)
+set(SOURSE_RILES rb.cpp)
+
+add_executable(stack ${SOURCE_FILES})
