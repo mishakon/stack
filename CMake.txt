@@ -5,6 +5,6 @@ project(stack)
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES st.cpp)
-set(SOURSE_RILES rb.cpp)
+set(SOURСE_RILES rb.cpp)
 
 add_executable(stack ${SOURCE_FILES})
